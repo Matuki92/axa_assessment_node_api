@@ -59,6 +59,7 @@ POST /auth/logout
 ```
 GET /admin/policyowner/<policy_number>
 ```
+Example policy number "56b415d6-53ee-4481-994f-4bffa47b5239"
 - Returns client object owner of matching policy, must be logged in.
 ```
 GET /admin/policies/<name>
