@@ -46,6 +46,7 @@ GET /clients/id/<id>
 ```
 GET /clients/name/<name>
 ```
+Example name "Manning"
 - (Returns client object with matching name, no login required.
 ```
 POST /auth/login
