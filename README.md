@@ -21,9 +21,7 @@
   ```
 
   - access the routes (stated below)
-  ´´´sh
   http://localhost:3000/<route>
-  ´´´
 
   * IMPORTANT: in order to login you must use [Postman] client or web extension, or similar program to be able to send a body in the request.
   The body must be in json format and contain the following information.
