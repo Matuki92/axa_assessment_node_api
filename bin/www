@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('axa-node-server:server');
-var http = require('http');
+var app = require('../app'),
+  debug = require('debug')('axa-node-server:server'),
+  http = require('http');
 
 /**
  * Get port from environment and store in Express.
@@ -87,4 +87,5 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.log('Server listening on ' + bind);
 }
