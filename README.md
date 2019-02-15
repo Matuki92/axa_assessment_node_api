@@ -21,7 +21,7 @@
   ```
 
   - access the routes (stated below)
-  ´´´
+  ´´´sh
   http://localhost:3000/<route>
   ´´´
 
@@ -42,25 +42,31 @@
   ```
 
 ### ROUTES
-  Anyone can access
-  - GET /clients/id/<id> 
-    Returns client object with matching id, no login required.
-
-  - GET /clients/name/<name>
-    Returns client object with matching name, no login required.
-
-  - POST /auth/login
-    IMPORTANT: must send request body json 
-    Logs user in only if authentication succeeds.
-
-  - POST /auth/logout
-    Logs user out of the current session.
-
-  - GET /admin/policyowner/<policy_number>
-    Returns client object owner of matching policy.
-
-  - GET /admin/policies/<name>
-    Returns array of policies objects owned by matching client name.
+```
+GET /clients/id/<id> 
+```
+- (Returns client object with matching id, no login required.
+```
+GET /clients/name/<name>
+```
+- (Returns client object with matching name, no login required.
+```
+POST /auth/login
+```
+- IMPORTANT: must send request body json, read steps above.
+- Logs user in only if authentication succeeds.
+```
+POST /auth/logout
+```
+- Logs user out of the current session.
+```
+GET /admin/policyowner/<policy_number>
+```
+- Returns client object owner of matching policy.
+```
+GET /admin/policies/<name>
+```
+- Returns array of policies objects owned by matching client name.
 
 ### TECHNOLOGIES USED
 
