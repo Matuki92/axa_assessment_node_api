@@ -42,6 +42,7 @@
 ```
 GET /clients/id/<id> 
 ```
+Example client id "e8fd159b-57c4-4d36-9bd7-a59ca13057bb"
 - (Returns client object with matching id, no login required.
 ```
 GET /clients/name/<name>
