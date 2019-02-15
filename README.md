@@ -59,11 +59,11 @@ POST /auth/logout
 ```
 GET /admin/policyowner/<policy_number>
 ```
-- Returns client object owner of matching policy.
+- Returns client object owner of matching policy, must be logged in.
 ```
 GET /admin/policies/<name>
 ```
-- Returns array of policies objects owned by matching client name.
+- Returns array of policies objects owned by matching client name, must be logged in.
 
 ### TECHNOLOGIES USED
 
