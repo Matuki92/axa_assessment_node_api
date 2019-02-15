@@ -12,7 +12,7 @@ const express = require('express'),
 router.get('/policies/:name', ({ params, session }, res, next) => {
   
   // send unauthorized if not logged in
-  if (!session.currentUser) {
+  if (!session.currentUser || session.currentUser.role !== 'admin') {
     return res.status(401).json({ code: 'unauthorized' });
   }
 
@@ -42,7 +42,7 @@ router.get('/policies/:name', ({ params, session }, res, next) => {
 router.get('/policyowner/:id', ({ params, session }, res, next) => {
 
   // send unauthorized if not logged in
-  if (!session.currentUser) {
+  if (!session.currentUser || session.currentUser.role !== 'admin') {
     return res.status(401).json({ code: 'unauthorized' });
   }
 
