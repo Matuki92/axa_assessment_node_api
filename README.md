@@ -1,13 +1,13 @@
-# BACKEND TEST API
+# BACKEND assessment test API
 
 ### STEPS
 
   - clone or download repo.
   ```sh
-  $ git clone https://github.com/Matuki92/axa_node.git
+  $ git clone https://github.com/Matuki92/axa_assessment_node_api.git
   ```
   ```sh
-  cd axa-node
+  cd axa_assessment_node_api
   ```
   
   - install dependencies
