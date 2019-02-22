@@ -75,10 +75,3 @@ GET /admin/policies/<name>
   - [express-session] for session storage.
   - [bcrypt] for password encrypting and validation.
 
-
-### COULD HAVE DONE
-
-  - unit testing
-  - use of lodash
-  - more frequent git push
-  - move all the data from the two api urls to a mongodb collection and use it along with session storage on mlab
