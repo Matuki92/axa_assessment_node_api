@@ -1,5 +1,7 @@
 # BACKEND assessment test API
 
+Backend AXA technical test. The API returns info about Clients or Policies, with authentication and validation depending on user role and login status.
+
 ### STEPS
 
   - clone or download repo.
